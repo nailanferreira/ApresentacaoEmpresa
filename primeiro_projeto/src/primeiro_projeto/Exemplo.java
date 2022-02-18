@@ -13,7 +13,15 @@ public class Exemplo {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	
 	String nome;
 	int idade;
+	String genero;
 
 }
